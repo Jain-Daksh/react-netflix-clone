@@ -1,0 +1,51 @@
+.footer {
+  padding: 50px;
+}
+
+.sub-links ul {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(1, 1fr);
+  text-align: center;
+  font-size: 15px;
+}
+
+.link {
+  padding: 50px;
+}
+
+.sub-links ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.sub-links a {
+  color: #686868;
+  text-decoration: none;
+}
+
+.sub-links a:hover {
+  color: #686868;
+  text-decoration: underline;
+}
+
+.logos a {
+  padding: 10px;
+}
+
+.logo {
+  color: white !important;
+  padding: 15px;
+}
+
+
+/* FOOTER */
+footer {
+  padding: 20px;
+  text-align: center;
+  color: #686868;
+  margin: 10px;
+}
